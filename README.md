@@ -96,8 +96,6 @@ fetch(url, {
 
 Note: The keys of the `data` object should match with the fields that are set using `setFields` method in the apps script file. The default keys are `name`, `email` and `message`.
 
-Article: https://devapt.com/formspree-alternative-formeasy
-
 ## Demo submission with live Google sheet
 
 Here is the [demo code](https://stackblitz.com/edit/js-55dzc8?file=index.html,index.js) and the live [Google sheet](https://docs.google.com/spreadsheets/d/13sGrLUk0ScU1qfRyOZzFG5pnksh7IAiTJw1Eio1jfaE/edit#gid=0) to get an idea on how this FormEasy library helps in receiving forms.
@@ -201,10 +199,6 @@ function handleSubmit(event) {
 document.getElementById('<YOUR_FORM_ID>').addEventListener('submit', handleSubmit);
 ```
 
-## Video instructions
-
-To see all the above instructions step by step, check this quick [demo video](https://www.youtube.com/watch?v=0u75mtnhifM/).
-
 ## FAQs
 
 <details>
@@ -237,22 +231,6 @@ If you want even others to use your customizations then you can contribute your 
 But Google Apps Script limits the email to 100/day and script run time to 6min/execution. You can see more about those [here](https://developers.google.com/apps-script/guides/services/quotas)
 
 </details>
-
-## Contributing
-
-Pull Requests are always welcome!
-
-If you wish to contribute using Github, you can work on any feature ideas you have or any bug fixes if you have noticed.
-
-After your PR gets merged, you'll be apparing on the [contributors page](https://github.com/Basharath/FormEasy/graphs/contributors).
-
-- Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/Basharath/FormEasy/compare).
-
-- Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on CODE OF CONDUCT, and the process for submitting pull requests.
-
-## License
-
-FormEasy is distributed using the MIT License. Check the [License details](https://github.com/Basharath/FormEasy/blob/master/LICENSE).
 
 ## Support
 
